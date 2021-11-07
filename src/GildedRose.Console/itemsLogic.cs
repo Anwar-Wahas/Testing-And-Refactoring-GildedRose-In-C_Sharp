@@ -31,21 +31,21 @@ namespace GildedRose.Console
                     regularProcces(item);
 
                 }
-                 if (IsAgedBrie(item))
+                else if (IsAgedBrie(item))
                 {
                     agedBrieProcces(item);
                 }
 
-                 if (IsBackstagePasses(item))
+                else if (IsBackstagePasses(item))
                 {
                     backstagePassesProcces(item);
                 }
 
-                 if (IsSulfuras(item))
+               else  if (IsSulfuras(item))
                 {
                     sulfurasProcces(item);
                 }
-                 if (isConjured(item))
+                else if (isConjured(item))
                 {
                     ConjuredProcces(item);
 
